@@ -1,0 +1,122 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ArticlesController!{% endblock %}
+
+{% block body %}
+{% include 'base/header.html.twig' %}
+
+
+<style>
+.articles{
+  margin-top: 1rem;
+  margin-bottom:1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 10px;
+  justify-content : center;
+  background-color : #282d32;
+  color: black;
+
+}
+
+.card{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  margin-bottom:2rem;
+  justify-content : center;
+  align-items: center;
+  width: 20rem;
+  height: 35rem;
+
+}
+</style>
+
+
+<div class=" articles row ">
+
+<div class="card col-6 col-md-3 ">
+  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+    <img src="{{asset ( 'build/images/pneu1.jpg') }}"
+      class="img-fluid"
+    />
+    <a href="#!">
+      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+    </a>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Continental</h5>
+    <p class="card-text">
+      Desription du pneu
+    </p>
+    <a href="#!" class="btn btn-primary">Entrer</a>
+  </div>
+  </div>
+
+<div class="card col-6 col-md-3 ">
+  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+    <img src="{{asset ( 'build/images/pneu1.jpg') }}"
+      class="img-fluid"
+    />
+    <a href="#!">
+      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+    </a>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Continental</h5>
+    <p class="card-text">
+      Desription du pneu
+    </p>
+    <a href="#!" class="btn btn-primary">Entrer</a>
+  </div>
+  </div>
+
+  <div class="card col-6 col-md-3 ">
+  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+    <img src="{{asset ( 'build/images/pneu1.jpg') }}"
+      class="img-fluid"
+    />
+    <a href="#!">
+      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+    </a>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Continental</h5>
+    <p class="card-text">
+      Desription du pneu
+    </p>
+    <a href="#!" class="btn btn-primary">Entrer</a>
+  </div>
+  </div>
+
+<div class="card col-6 col-md-3 ">
+  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+    <img src="{{asset ( 'build/images/pneu1.jpg') }}"
+      class="img-fluid"
+    />
+    <a href="#!">
+      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+    </a>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Continental</h5>
+    <p class="card-text">
+      Desription du pneu
+    </p>
+    <a href="#!" class="btn btn-primary">Entrer</a>
+  </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+{% include 'base/footer.html.twig' %}
+
+{% endblock %}
