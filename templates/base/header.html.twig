@@ -1,146 +1,16 @@
 {% block body %}
-<style>
-.logo {
-  width:350px;
-  height:350px;
-}
 
-.text-center {
-  text-align: center!important;
-}
-</style>
 
+<!-- Just an image -->
 <nav class="row navbar  navbar-expand-lg navbar-dark bg-dark ">
-
-<div class="col text-center">
-<img src="{{asset ( 'build/images/logo.png') }}" class="logo" alt="logo du site">
-</div>
-
+  <a class="navbar-brand" href="homepage">
+    <img src="{{asset ( 'build/images/logo.png') }}" width="100" height="100" alt="">
+  </a>
 </nav>
+  
+    
+  
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">MLVAUTO</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="homepage">acceuil</a>
-        </li>
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Pneu
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <table>
-		<thead>
-			<tr>
-      <th><li><a class="dropdown-item" href="articles">marques pneu</a></li></th>
-      <th><li><a class="dropdown-item" href="#">accessoire Pneu</a></li></th>
-      <th><li><a class="dropdown-item" href="#">Auto</a></li></th>
-      <th><li><a class="dropdown-item" href="#">Moto</a></li></th>
-      <th><li><a class="dropdown-item" href="#">tout les pneu</a></li></th></tr>
-		</thead>
-		<tbody>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-		</tbody>
-		<tbody>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-		</tbody>
-		<tbody>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-		</tbody>
-    <tbody>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-		</tbody>
-    <tbody>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-		</tbody>
-	</table>
-          </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Service Pneu
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <table>
-		<thead>
-			<tr>
-      <th><li><a class="dropdown-item" href="#">montage</a></li></th>
-      <th><li><a class="dropdown-item" href="#">demontage</a></li></th>
-      <th><li><a class="dropdown-item" href="#">équilibrage</a></li></th>
-      
-		</thead>
-		<tbody>
-      
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-      <tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-		</tbody>
-		<tbody>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-		</tbody>
-		<tbody>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-			<tr><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td><td><li><a class="dropdown-item" href="#">-</a></li></td></tr>
-		</tbody>
-	</table>
-          </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Entretient Auto
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Promotion
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">nos offres pneu</a></li>
-            <li><a class="dropdown-item" href="#">nos offres entretient courant</a></li>
-            <li><hr class="dropdown-divider"></li>
-            
-          </ul>
-        </li>
-        
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Recherche</button>
-      </form>     
-      <i class="ri-user-line"></i>
-      <i class="ri-shopping-cart-2-line"></i>
-    </div>
-  </div>
-</nav>
 
 
 {% endblock %}
